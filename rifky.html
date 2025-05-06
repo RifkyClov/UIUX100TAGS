@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rifky Herman - Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+    header, nav, section, footer, aside, article { padding: 20px; margin: 10px; border-radius: 10px; }
+    header { background: #343a40; color: white; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    section { background: white; }
+    footer { background: #212529; color: white; text-align: center; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    .code { font-family: monospace; background: #eee; padding: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rifky Herman</h1>
+  <p><mark>Digital Business Student</mark></p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am <strong>Rifky</strong>, passionate about <em>Data & Marketing</em>.</p>
+    <figure>
+      <img src="https://via.placeholder.com/150" alt="Rifky Photo">
+      <figcaption>My profile picture</figcaption>
+    </figure>
+    <details>
+      <summary>More about me</summary>
+      <p>I love technology and storytelling. I also enjoy working in teams.</p>
+    </details>
+    <blockquote cite="https://openai.com">"AI will not replace you. A person using AI will."</blockquote>
+    <address>
+      Jakarta, Indonesia<br>
+      <a href="mailto:rifky@example.com">rifky@example.com</a>
+    </address>
+    <time datetime="2025-05-06">Last updated: May 6, 2025</time>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+    </ul>
+    <ol>
+      <li>Data Visualization</li>
+      <li>Digital Marketing</li>
+    </ol>
+    <progress value="80" max="100"></progress> HTML<br>
+    <progress value="70" max="100"></progress> CSS
+    <dl>
+      <dt>SEO</dt>
+      <dd>Search Engine Optimization</dd>
+    </dl>
+    <output>Result: 42</output>
+    <meter value="0.6">60%</meter>
+    <pre class="code">
+def hello():
+  print("Hello, World!")
+    </pre>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <article>
+      <header><h3>Clocky</h3></header>
+      <p>A smart alarm clock with rubber wheels.</p>
+      <footer>2024</footer>
+    </article>
+    <article>
+      <header><h3>Mochiku</h3></header>
+      <p>E-commerce site selling mochi.</p>
+      <footer>2024</footer>
+    </article>
+    <table>
+      <caption>Project Timeline</caption>
+      <thead>
+        <tr><th>Project</th><th>Year</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Clocky</td><td>2024</td></tr>
+        <tr><td>Mochiku</td><td>2024</td></tr>
+      </tbody>
+    </table>
+    <canvas id="chart" width="100" height="100"></canvas>
+    <video width="200" controls>
+      <source src="demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <audio controls>
+      <source src="demo.mp3" type="audio/mpeg">
+    </audio>
+    <iframe src="https://example.com" title="Example"></iframe>
+    <ruby>漢<rt>kan</rt>字<rt>ji</rt></ruby>
+  </section>
+
+  <aside>
+    <h2>Sidebar Notes</h2>
+    <p>This is extra information in an <code>&lt;aside&gt;</code> tag.</p>
+  </aside>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="msg">Message:</label><br>
+      <textarea id="msg" name="msg"></textarea><br>
+
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+    </form>
+    <fieldset>
+      <legend>Contact Preferences</legend>
+      <input type="radio" id="emailpref" name="pref" value="email" checked>
+      <label for="emailpref">Email</label><br>
+      <input type="radio" id="phonepref" name="pref" value="phone">
+      <label for="phonepref">Phone</label>
+    </fieldset>
+    <select>
+      <option value="student">Student</option>
+      <option value="professional">Professional</option>
+    </select>
+    <kbd>Ctrl + S</kbd> to save.
+    <samp>Output shown here</samp>
+    <abbr title="HyperText Markup Language">HTML</abbr> is fun!
+    <bdo dir="rtl">Right to left!</bdo>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <small>2025</small> <strong>Rifky Herman</strong>. Built with ❤️ using <var>HTML & CSS</var>.</p>
+</footer>
+
+</body>
+</html>
